@@ -49,3 +49,9 @@
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = git://github.com/robbyrussell/oh-my-zsh.git
+[submodule "vim/bundle/railscasts"]
+	path = vim/bundle/railscasts
+	url = https://github.com/dhruvasagar/vim-railscasts-theme.git
+[submodule "vim/bundle/tabular"]
+	path = vim/bundle/tabular
+	url = git://github.com/godlygeek/tabular.git
