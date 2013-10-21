@@ -106,9 +106,9 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 for_window [class="(?i)feh"] floating enable
-assign [class="(?i)pidgin"] 3: chat
-assign [class="(?i)chromium"] 2: www
-assign [class="(?i)firefox"] 2: www
+assign [class="(?i)pidgin"] 3:chat
+assign [class="(?i)chromium"] 2:www
+assign [class="(?i)firefox"] 2:www
 
 bar {
 	position top
