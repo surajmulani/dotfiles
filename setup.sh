@@ -3,7 +3,7 @@
 # Sets up my dotfiles
 
 currentDir=`pwd`
-dotfiles=( aliases bashrc gitconfig vim vimrc oh-my-zsh zshrc Xresources )
+dotfiles=( aliases bashrc gitconfig vim vimrc oh-my-zsh zshrc Xresources i3 i3status.conf )
 
 echo "Initializing and updating submodules"
 git submodule init
