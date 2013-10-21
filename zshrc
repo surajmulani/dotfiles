@@ -1,5 +1,5 @@
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="norm"
+ZSH_THEME="apple"
 
 DISABLE_AUTO_UPDATE=true
 
