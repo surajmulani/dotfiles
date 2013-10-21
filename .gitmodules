@@ -55,3 +55,6 @@
 [submodule "vim/bundle/tabular"]
 	path = vim/bundle/tabular
 	url = git://github.com/godlygeek/tabular.git
+[submodule "vim/bundle/tomorrow-theme"]
+	path = vim/bundle/tomorrow-theme
+	url = https://github.com/chriskempson/vim-tomorrow-theme.git

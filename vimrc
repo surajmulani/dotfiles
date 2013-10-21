@@ -11,7 +11,7 @@ syntax on
 set t_Co=256
 
 " Set colorscheme
-colorscheme railscasts
+colorscheme Tomorrow-Night
 
 " Set Leader [[
 let mapleader = ","
