@@ -1,10 +1,5 @@
 set nocompatible
 
-" Pathogen
-au!
-filetype off
-call pathogen#runtime_append_all_bundles()
-
 syntax on
 
 " Use 256 colors in the terminal
