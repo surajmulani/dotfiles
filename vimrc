@@ -1,4 +1,15 @@
+""" Initialize Vundle and Plugins
 set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
+
+Bundle 'chriskempson/vim-tomorrow-theme'
+
+call vundle#end()
+filetype plugin indent on
+"""
 
 syntax on
 
