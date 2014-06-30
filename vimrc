@@ -1,5 +1,6 @@
-""" Initialize Vundle and Plugins
 set nocompatible
+
+""" Initialize Vundle and Plugins
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -12,7 +13,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'tpope/vim-rails'
 Plugin 'godlygeek/tabular'
-Bundle 'chriskempson/vim-tomorrow-theme'
+Plugin 'chriskempson/vim-tomorrow-theme'
 
 call vundle#end()
 filetype plugin indent on
@@ -33,7 +34,11 @@ let mapleader = ","
 " General Settings [[
 
 set encoding=utf-8
+
+" Shows absolute line number for the focused line, and relative for other lines.
 set relativenumber
+set number
+
 set showmatch
 set ruler
 set showmode
@@ -64,7 +69,6 @@ set viminfo='20,\"80
 set undolevels=500
 set cursorline
 set nospell
-set autochdir
 " ]]
 
 " Wildmenu completion [[
